@@ -1,5 +1,7 @@
 # README
 
+![Concept](https://img.shields.io/badge/Concept-F-red) ![Effort to Cashflow](https://img.shields.io/badge/Effort_to_Cashflow-80%2F100-red)
+
 Welcome to [RedwoodJS](https://redwoodjs.com)!
 
 > **Prerequisites**
@@ -120,3 +122,15 @@ The best way to learn Redwood is by going through the comprehensive [tutorial](h
 
 - Stay updated: read [Forum announcements](https://community.redwoodjs.com/c/announcements/5), follow us on [Twitter](https://twitter.com/redwoodjs), and subscribe to the [newsletter](https://redwoodjs.com/newsletter)
 - [Learn how to contribute](https://redwoodjs.com/docs/contributing)
+
+## 💰 Path to Revenue
+A hardcoded four-iframe YouTube news wall has no defensible paid product; the only plausible angle is pivoting into a configurable multi-stream dashboard for news junkies/traders with a small subscription, which is mostly new work.
+
+### Release TODOs
+- [ ] Replace hardcoded stream IDs with user-configurable stream slots (add/remove/swap channels)
+- [ ] Add saved layouts and presets (world news, markets, weather) stored per user
+- [ ] Add audio focus controls (one stream audible, others muted) — the key UX for multi-stream viewing
+- [ ] Strip the unused Redwood API/Prisma scaffold or actually use it for accounts and saved configs
+- [ ] Deploy to Vercel/Netlify under a real domain
+- [ ] Gate premium features (more than 4 panels, saved presets) behind a cheap Stripe subscription
+- [ ] Verify YouTube embed ToS compliance before charging for the product
